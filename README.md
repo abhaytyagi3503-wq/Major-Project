@@ -1,226 +1,124 @@
-# Integration of Value Stream Mapping and System Dynamics
+# Integration of Value Stream Mapping and System Dynamics for Process Waste Improvement
 
-A research-based manufacturing optimization project focused on improving a production line by integrating **Value Stream Mapping (VSM)** with **System Dynamics modeling**.
+## Project Overview
 
-## Overview
+This project focuses on identifying and improving process waste in a complex production line by integrating **Value Stream Mapping (VSM)** with **System Dynamics (SD)** modeling. Traditional VSM is useful for identifying bottlenecks, inventory delays, non-value-added activities, and lean wastes, but it mainly provides a static snapshot of the production system.
 
-This project analyzes a **hot water generator production line** to identify process waste, bottlenecks, rework causes, and manpower inefficiencies. Traditional Value Stream Mapping provides a static view of the production flow, so this project integrates **System Dynamics using Vensim** to understand the dynamic behavior of the manufacturing system.
+To overcome this limitation, this project combines VSM with System Dynamics simulation using **Vensim**. The study was applied to a **hot water generator production line** in a manufacturing environment. The main objective was to analyze the current production flow, identify bottlenecks, evaluate operational and financial performance, and suggest practical Kaizen improvements for better productivity and resource utilization.
 
-The project combines lean manufacturing tools, production data analysis, simulation modeling, Lean Box Score evaluation, and Kaizen improvement planning to create a practical decision-support approach for production optimization.
+The project supports lean manufacturing decision-making by converting a static value stream into a more dynamic model that helps understand process behavior, resource usage, cost impact, and improvement opportunities.
 
-## Project Objectives
+---
 
-- Identify waste and bottlenecks in the production line
-- Analyze cycle time, takt time, uptime, quality, and resource capacity
-- Convert the current Value Stream Map into a System Dynamics model
-- Evaluate the production line using Lean Box Score metrics
-- Propose Kaizen improvements for process optimization
-- Improve manpower allocation and reduce rework
-- Develop a future-state Value Stream Map for improved production flow
+## Objectives
 
-## How the Project Was Done
+- Identify waste and bottlenecks in the production line.
+- Develop the current Value Stream Map for the hot water generator process.
+- Convert the VSM into a System Dynamics model using Vensim.
+- Evaluate the current process using Lean Box Score.
+- Suggest Kaizen improvements for quality, manpower, reliability, and cost reduction.
+- Create a future-state improvement plan for the production system.
 
-The project was completed using a structured industrial engineering and lean manufacturing approach:
+---
 
-1. **Defined production improvement priorities**  
-   The project focused on internally controlled improvement areas such as quality, resource utilization, process reliability, manpower optimization, and waste reduction.
+## Tools and Methods Used
 
-2. **Studied the current production process**  
-   The complete production flow of the hot water generator line was studied from customer order to final testing.
+- **Value Stream Mapping (VSM)**
+- **System Dynamics Modeling**
+- **Vensim Simulation Software**
+- **Lean Box Score**
+- **Kaizen Improvement Analysis**
+- **Takt Time Analysis**
+- **Manpower Optimization**
+- **Cost and Resource Capacity Evaluation**
 
-3. **Created the current Value Stream Map**  
-   A current-state VSM was prepared to visualize material flow, information flow, process steps, cycle times, inventory points, and waiting times.
+---
 
-4. **Collected process data**  
-   Important production parameters were analyzed, including cycle time, changeover time, uptime, quality rate, resource usage, manpower allocation, and cost data.
+## How I Completed the Project
 
-5. **Built the System Dynamics model**  
-   The static VSM was converted into a dynamic production model using Vensim. Stocks represented inventory or work-in-progress, flows represented process movement, and variables represented production parameters.
+The project was completed using a structured lean implementation framework.
 
-6. **Evaluated performance using Lean Box Score**  
-   The production line was evaluated using operational, resource capacity, and financial metrics to understand the current system performance.
+### 1. Developed Organizational Priorities
 
-7. **Identified bottlenecks and waste areas**  
-   Major issues were found in painting quality, rust formation, supply chain delays, equipment reliability, worker training, and manpower utilization.
+The first step was to define the main improvement priorities for the production line. The project focused mainly on internal improvement areas such as:
 
-8. **Proposed Kaizen improvements**  
-   Practical improvements were suggested to reduce rework, improve maintenance, strengthen supplier coordination, train workers, and optimize manpower.
+- Quality improvement
+- Resource optimization
+- Machine reliability
+- Cost reduction
+- Manpower utilization
 
-9. **Developed the future-state VSM**  
-   A future-state map was created to show the improved production flow after applying the proposed improvements.
+---
 
-## Methods Used
+### 2. Created the Current Value Stream Map
 
-- Value Stream Mapping
-- System Dynamics Modeling
-- Vensim Simulation
-- Lean Box Score
-- Takt Time Analysis
-- Kaizen Improvement
-- Resource Capacity Analysis
-- Cost and Profit Analysis
-- Manpower Optimization
+A current-state VSM was created for the hot water generator production line. The production process included the following major steps:
 
-## Methodology
+1. Customer order
+2. Product design
+3. Production control
+4. Supplier material supply
+5. Angle cutting
+6. Arrangement of base
+7. Outer shell layers
+8. Shell layering
+9. Initial assembly
+10. Final connections
+11. Painting
+12. Testing
+13. Finished goods inventory
 
-```text
-Organizational Priorities
-        ↓
-Current Value Stream Map
-        ↓
-Process Data Collection
-        ↓
-System Dynamics Model in Vensim
-        ↓
-Lean Box Score Evaluation
-        ↓
-Bottleneck Identification
-        ↓
-Kaizen Improvements
-        ↓
-Future Value Stream Map
-```
+Process data such as cycle time, changeover time, uptime, quality level, inventory, and lead time were collected and used to map the complete value stream.
 
-## Key Process Parameters
+---
 
-| Parameter | Purpose |
-|---|---|
-| Cycle Time | Time required to complete each process step |
-| Takt Time | Required production pace based on customer demand |
-| Changeover Time | Setup time between operations |
-| Uptime | Available machine working time |
-| Quality Rate | Percentage of products passing without rework |
-| Resource Capacity | Machine and manpower utilization |
-| Conversion Cost | Cost of converting raw material into finished product |
-| Lead Time | Total time from raw material entry to finished output |
+### 3. Built the System Dynamics Model
 
-## Lean Box Score
+After creating the VSM, the production system was converted into a System Dynamics model using **Vensim**. The model included:
 
-The Lean Box Score was used to evaluate the production line from three main perspectives: **operational performance**, **resource capacity**, and **financial performance**.
+- Stocks for inventory and accumulation points
+- Flows for production movement between stages
+- Variables for process times, rework, quality, and resource usage
+- Feedback relationships between production operations
 
-### Operational Metrics
+This helped study the dynamic behavior of the production line instead of only viewing a static process map.
 
-| Metric | Result |
-|---|---:|
-| Dock-to-dock time | 58 hours |
-| First Time Through | 75% |
-| On-Time Delivery | 100% |
-| Sales per person | ₹130,000 |
-| Average cost per unit | ₹296,982 |
+---
 
-### Resource Capacity Metrics
+### 4. Evaluated the Current Process Using Lean Box Score
 
-| Resource | Productive Capacity |
-|---|---:|
-| Paint Guns | 13% |
-| Drilling Machine | 66% |
-| Lifting Machine | 33% |
-| Welding Machine | 83% |
-| Shearing Machine | 55% |
-| Bending Machine | 41% |
+The current production system was evaluated using Lean Box Score, which included three major categories:
 
-### Financial Metrics
+#### Operational Performance
 
-| Metric | Result |
-|---|---:|
-| Revenue | ₹23,40,000 |
-| Material Cost | ₹11,00,000 |
-| Conversion Cost | ₹87,839 |
-| Inventory Value | ₹87.5 |
-| Value Stream Profit | Approx. ₹20.43 lakh |
+- Dock-to-dock time: **58 hours**
+- First Time Through quality: **75%**
+- On-Time Delivery: **100%**
+- Sales per person: **₹130,000**
 
-## Key Findings
+#### Resource Capacity
 
-- Dock-to-dock production time was calculated as **58 hours**
-- First Time Through was found to be **75%**
-- On-Time Delivery was **100%**
-- Takt time was calculated as **9 hours per unit**
-- Major issues were found in painting, rust formation, equipment reliability, supply chain delays, worker training, and manpower utilization
-- Manpower optimization reduced the required workers from **18 to 10**
-- Failure/repair cases were reduced from **13 to 7**
-- Sales per person improved from **₹130,000 to ₹234,000**
-- Weekly labor cost saving was estimated at **₹1.04 lakh**
+The project analyzed productive and non-productive usage of major resources such as:
 
-## Kaizen Improvements Proposed
+- Paint guns
+- Drilling machine
+- Lifting machine
+- Welding machine
+- Shearing machine
+- Bending machine
 
-| Problem Area | Improvement |
-|---|---|
-| Painting defects | Clean metal surface using sandpaper and wire brush before painting |
-| Rust formation | Remove rust and apply rust-inhibiting primer |
-| Supply chain delays | Improve supplier coordination and inventory control |
-| Equipment malfunction | Apply regular preventive maintenance schedules |
-| Poor worker training | Use instructor-led training and on-the-job training |
-| Manpower underutilization | Reallocate workers using takt time analysis and cross-training |
+#### Financial Performance
 
-## Results
+The financial analysis included:
 
-| Metric | Before | After |
-|---|---:|---:|
-| Number of workers | 18 | 10 |
-| Failure/repair cases | 13 | 7 |
-| Sales per person | ₹130,000 | ₹234,000 |
-| Weekly labor cost saving | — | ₹1.04 lakh |
+- Inventory value
+- Revenue
+- Material cost
+- Conversion cost
+- Value stream profit
 
-## Tools Used
-
-- Vensim
-- Value Stream Mapping
-- Lean Manufacturing Methods
-- System Dynamics Modeling
-- Microsoft Word / PDF Documentation
-
-## Repository Contents
+The value stream profit was calculated as approximately:
 
 ```text
-Major-Project/
-│
-├── Major 1.pdf
-│   └── Full major project report
-│
-├── confluence 2024 paper (22-10-2023) (1).pdf
-│   └── Research paper on VSM and System Dynamics integration
-│
-└── README.md
-    └── Project documentation
-```
-
-## Conclusion
-
-This project shows that combining **Value Stream Mapping** with **System Dynamics** provides a stronger decision-support framework for production improvement. VSM helped identify waste and bottlenecks, while System Dynamics helped analyze the production line dynamically. The proposed Kaizen improvements supported better manpower utilization, reduced rework, improved reliability, and created a clearer future-state production plan.
-
-## Authors
-
-- **Dr. Shyamal Samant**  
-  Mechanical Engineering Department  
-  Amity School of Engineering and Technology  
-
-- **Abhay Tyagi**  
-  Mechanical / Mechatronics Engineering  
-  Lean Manufacturing | System Dynamics | Production Optimization | Automation  
-
-- **Naman Narula**  
-  Mechanical Engineering Department  
-  Amity School of Engineering and Technology  
-
-## GitHub
-
-**Abhay Tyagi**  
-GitHub: [abhaytyagi3503-wq](https://github.com/abhaytyagi3503-wq)
-
-## Suggested GitHub Topics
-
-```text
-lean-manufacturing
-value-stream-mapping
-system-dynamics
-vensim
-kaizen
-production-optimization
-industrial-engineering
-manufacturing-simulation
-process-improvement
-takt-time
-lean-six-sigma
-operations-research
-smart-manufacturing
-```
+Value Stream Profit = Revenue - Total Cost
+Value Stream Profit = ₹2,043,018 approximately
